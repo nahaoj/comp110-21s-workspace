@@ -43,7 +43,7 @@ def greet() -> None:
     player = str(input())
     print(f"Well nice to meet you, {player}, I hope you enjoy! {COWBOY}")
     return player
-
+    
 
 def starting_question() -> None:
     """prompts the player with the first question to get started with the game"""
